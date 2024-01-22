@@ -1,0 +1,33 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Pluscode Geocoding Guidance</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <header>
+                <h1>Open Location Pluscoder Tool</h1>
+            </header>
+            <main>
+                <section id="download-template-section">
+                    <h2>Download CSV Template</h2>
+                    <a href="Geocode_Template.csv" download="Geocode_Template.csv">Download Template</a>
+                </section>
+                <section id="file-upload-section">
+                    <h2>Upload Your File (CSV, KML, or GeoJSON)</h2>
+                    <input type="file" id="fileInput" accept=".csv, .kml, .geojson">
+                    <button id="uploadButton">Upload and Geocode</button>
+                    <div id="downloadLink" style="display:none;">
+                        <a href="#" id="fileDownload">Download Geocoded File</a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>© 2024 Pluscoder Tool</p>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+        </html>
+    
